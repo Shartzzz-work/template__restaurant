@@ -1,0 +1,18 @@
+---
+import { Image } from 'astro:assets';
+import img from "../../_img/knife.png"
+---
+
+<section id="about">
+  <div class="about-container us">
+    <h2 class="title-block">About Us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
+    <button type="button" class="button">Know More</button>
+  </div>
+  <Image src={img} densities={[1.5, 2]} alt="knife" class="about-img" />
+  <div class="about-container">
+    <h2 class="title-block">Our History</h2>
+    <p>Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat. Risus placerat morbi volutpat habitasse interdum mi aliquam In sed odio nec aliquet.</p>
+    <button type="button" class="button">Know More</button>
+  </div>
+</section>

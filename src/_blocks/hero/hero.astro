@@ -1,0 +1,18 @@
+---
+import { Image } from 'astro:assets';
+import img from "../../_img/hero-img.jpg"
+---
+
+<section id="hero">
+  <div class="hero-container">
+    <h1 class="title-mini">Chase the new Flavour</h1>
+    <h2>The key to Fine dining</h2>
+    <p>Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et,
+      penatibus aliquam amet tellus
+    </p>
+    <button type="button" name="menu" class="button">Explore Menu</button>
+  </div>
+  <div class="img-style">
+    <Image src={img} densities={[1.5, 2]} alt="hero image" class="hero-img">
+  </div>
+</section>

@@ -1,0 +1,16 @@
+@import './_components/blog-item/blog-item.css';
+
+#blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: var(--edges);
+}
+
+.blog-list {
+  display: flex;
+  gap: 20px;
+  margin: 40px 0;
+}

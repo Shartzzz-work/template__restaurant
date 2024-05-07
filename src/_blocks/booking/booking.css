@@ -1,0 +1,27 @@
+#booking {
+  display: flex;
+  padding: var(--edges);
+}
+
+#bookingForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  border: 1px solid var(--c-accent-medium);
+  background: var(--c-bg-block);
+  padding: 40px;
+  width: max-content;
+  margin: auto;
+}
+
+.booking-items {
+  display: flex;
+  gap: 20px;
+
+  & .form-label {
+    flex: 1;
+    min-width: 300px;
+  }
+}

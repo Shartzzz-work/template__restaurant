@@ -1,0 +1,13 @@
+---
+import { Image } from 'astro:assets';
+import img from "../../_img/glass.png"
+---
+
+<nav id="menu">
+  <ul class="menu-list">
+    <li><a href="#" class="link">Bar Menu</a></li>
+    <li><a href="#" class="link">Food Menu</a></li>
+    <li><a href="#" class="link">Desserts Menu</a></li>
+  </ul>
+  <Image src={img} densities={[1.5, 2]} alt="glass" class="menu-img" />
+</nav>

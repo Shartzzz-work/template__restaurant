@@ -1,0 +1,43 @@
+#chef {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: var(--edges);
+
+  & .img-style {
+    flex: 1;
+    max-width: 500px;
+  }
+}
+
+.chef-container {
+  flex: 1;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.chef-quote {
+  &::before,
+  &::after {
+    content: '';
+  }
+
+  & > svg {
+    width: 2.5em;
+    margin-right: 5px;
+  }
+}
+
+.chef-name {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  & :first-child {
+    font-size: 2rem;
+    color: var(--c-accent);
+  }
+}

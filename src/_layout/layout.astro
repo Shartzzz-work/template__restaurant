@@ -1,0 +1,28 @@
+---
+import Footer from './blocks/footer/footer.astro';
+import Header from './blocks/header/header.astro';
+
+import '../index.css';
+---
+
+<!doctype html>
+<html dir="auto" lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0"
+    />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="description" content="description" />
+    <meta name="keywords" content="keywords" />
+    <meta name="author" content="Shartzzz" />
+  </head>
+  <body>
+    <Header />
+    <slot />
+    <Footer />
+  </body>
+</html>

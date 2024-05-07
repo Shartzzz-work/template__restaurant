@@ -1,0 +1,30 @@
+@import './_components/awards-item/awards-item.css';
+
+#awards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--edges);
+  padding: var(--edges);
+  height: 650px;
+}
+
+.awards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.awards-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 300px));
+  gap: 40px;
+  min-width: 400px;
+  margin-top: 40px;
+}
+
+.awards-img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+}

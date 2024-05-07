@@ -1,0 +1,132 @@
+---
+import { Image } from 'astro:assets';
+import img from "../../_img/shaker.png"
+---
+
+<section class="special-menu__item-ingridients" id="special">
+  <h2 class="title-mini">Menu that fits you palatte</h2>
+  <h3 class="title-block">Today’s Special</h3>
+  <div class="special-container">
+    <article class="special-menu">
+      <h4>Wine & Beer</h4>
+      <div class="special-menu__list">
+        <div class="special-menu__item">
+          <div class="special-menu__item-data">
+            <b>Chapel Hill Shiraz</b>
+            <span>$56</span>
+          </div>
+          <ul class="special-menu__item-ingridients">
+            <li>AU</li>
+            <li>Bottle</li>
+          </ul>
+        </div>
+        <div class="special-menu__item">
+          <div class="special-menu__item-data">
+            <b>Catena Malbec</b>
+            <span>$59</span>
+          </div>
+          <ul class="special-menu__item-ingridients">
+            <li>AR</li>
+            <li>Bottle</li>
+          </ul>
+        </div>
+        <div class="special-menu__item">
+          <div class="special-menu__item-data">
+            <b>La Vieille Rosé</b>
+            <span>$44</span>
+          </div>
+          <ul class="special-menu__item-ingridients">
+            <li>FR</li>
+            <li>750 ml</li>
+          </ul>
+        </div>
+        <div class="special-menu__item">
+          <div class="special-menu__item-data">
+            <b>Rhino Pale Ale</b>
+            <span>$31</span>
+          </div>
+          <ul class="special-menu__item-ingridients">
+            <li>CA</li>
+            <li>750 ml</li>
+          </ul>
+        </div>
+        <div class="special-menu__item">
+          <div class="special-menu__item-data">
+            <b>Irish Guinness</b>
+            <span>$26</span>
+          </div>
+          <ul class="special-menu__item-ingridients">
+            <li>IE</li>
+            <li>750 ml</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+    <Image src={img} densities={[1.5, 2]} alt="shaker" class="special-img" />
+    <article class="special-menu">
+      <h4>Cocktails</h4>
+      <div class="special-menu__list">
+        <div class="special-menu__item">
+          <div class="special-menu__item-data">
+            <b>Aperol Spritz
+            </b>
+            <span>$20</span>
+          </div>
+          <ul class="special-menu__item-ingridients">
+            <li>Aperol</li>
+            <li>Villa Marchesi prosecco</li>
+            <li>soda</li>
+            <li>30ml</li>
+          </ul>
+        </div>
+        <div class="special-menu__item">
+          <div class="special-menu__item-data">
+            <b>Dark 'N' Stormy
+            </b>
+            <span>$16</span>
+          </div>
+          <ul class="special-menu__item-ingridients">
+            <li>Dark rum</li>
+            <li>Ginger beer</li>
+            <li>Slice of lime</li>
+          </ul>
+        </div>
+        <div class="special-menu__item">
+          <div class="special-menu__item-data">
+            <b>Daiquiri</b>
+            <span>$10</span>
+          </div>
+          <ul class="special-menu__item-ingridients">
+            <li>Rum</li>
+            <li>Citrus juice</li>
+            <li>Sugar</li>
+          </ul>
+        </div>
+        <div class="special-menu__item">
+          <div class="special-menu__item-data">
+            <b>Old Fashioned</b>
+            <span>$31</span>
+          </div>
+          <ul class="special-menu__item-ingridients">
+            <li>Bourbon</li>
+            <li>Brown sugar</li>
+            <li>Angostura Bitters</li>
+          </ul>
+        </div>
+        <div class="special-menu__item">
+          <div class="special-menu__item-data">
+            <b>Negroni</b>
+            <span>$26</span>
+          </div>
+          <ul class="special-menu__item-ingridients">
+            <li>Gin</li>
+            <li>Sweet Vermouth</li>
+            <li>Campari</li>
+            <li>Orange garnish</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </div>
+  <button type="button" class="button">View More</button>
+</section>

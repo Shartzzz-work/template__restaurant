@@ -1,0 +1,13 @@
+@import './_css/general.css';
+@import './_blocks/hero/hero.css';
+@import './_blocks/about/about.css';
+@import './_blocks/booking/booking.css';
+@import './_blocks/menu/menu.css';
+@import './_blocks/special/special.css';
+@import './_blocks/chef/chef.css';
+@import './_blocks/testimonials/testimonials.css';
+@import './_blocks/video/video.css';
+@import './_blocks/awards/awards.css';
+@import './_blocks/blog/blog.css';
+@import './_blocks/gallery/gallery.css';
+@import './_blocks/subscribe/subscribe.css';

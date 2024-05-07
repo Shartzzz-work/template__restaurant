@@ -1,0 +1,30 @@
+---
+import { Image } from 'astro:assets'
+import img from '../../_img/hero-img.jpg'
+---
+
+<section id="gallery">
+  <div class="gallery-container">
+    <h2 class="title-mini">Instagram</h2>
+    <h3 class="title-block">Photo Gallery</h3>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis
+      ipsum turpis elit elit scelerisque egestas mu.
+    </p>
+    <a href="#" class="button">View More</a>
+  </div>
+  <div class="gallery-list">
+    <a href="#" class="gallery-item" title="gallery link"
+      ><Image src={img} densities={[1.5, 2]} alt="gallery image" /></a
+    >
+    <a href="#" class="gallery-item" title="gallery link"
+      ><Image src={img} densities={[1.5, 2]} alt="gallery image" /></a
+    >
+    <a href="#" class="gallery-item" title="gallery link"
+      ><Image src={img} densities={[1.5, 2]} alt="gallery image" /></a
+    >
+    <a href="#" class="gallery-item" title="gallery link"
+      ><Image src={img} densities={[1.5, 2]} alt="gallery image" /></a
+    >
+  </div>
+</section>

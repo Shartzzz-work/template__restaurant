@@ -1,0 +1,20 @@
+---
+import AwardsItem from './_components/awards-item/awards-item.astro';
+
+import { Image } from 'astro:assets'
+import img from '../../_img/awards-img.jpg'
+---
+
+<section id="awards">
+  <div class="awards-container">
+    <h2 class="title-mini">Awards & recognition</h2>
+    <h3 class="title-block">Our Laurels</h3>
+    <div class="awards-list">
+      <AwardsItem />
+      <AwardsItem />
+      <AwardsItem />
+      <AwardsItem />
+    </div>
+  </div>
+  <Image src={img} densities={[1.5, 2]} alt="awards image" class="awards-img">
+</section>

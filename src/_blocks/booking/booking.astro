@@ -1,0 +1,27 @@
+<section id="booking">
+  <form id="bookingForm">
+    <h2 class="title-mini">Reservations</h2>
+    <h3 class="title-block">Book A Table</h3>
+    <div class="booking-items">
+      <label class="form-label">
+        <input
+          type="number"
+          name="personNumber"
+          min="1"
+          max="20"
+          class="form-input"
+          required
+          placeholder=""
+        />
+        <span class="form-input__title">Person</span>
+      </label>
+      <label class="form-label">
+        <input type="date" name="date" class="form-input" aria-label="date" />
+      </label>
+      <label class="form-label">
+        <input type="time" name="time" class="form-input" aria-label="time" />
+      </label>
+    </div>
+    <button type="submit" class="button">Book Now</button>
+  </form>
+</section>

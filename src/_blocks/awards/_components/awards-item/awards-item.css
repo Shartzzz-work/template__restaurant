@@ -1,0 +1,15 @@
+.awards-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.awards-item__data {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  & h4 {
+    color: var(--c-accent);
+  }
+}

@@ -1,0 +1,18 @@
+---
+import { Image } from 'astro:assets'
+import img from '../../../../_img/blog1.jpg'
+---
+
+<article class="blog-item">
+  <Image src={img} densities={[1.5, 2]} alt="blog image" class="blog-item__img" />
+  <div class="blog-item__data">
+    <div class="blog-item__date">
+      <span>16 Apr 2021</span><span>- Annalisa L</span>
+    </div>
+    <a href="#" class="link">
+      <h1>tips for prepping and caring for your grill</h1>
+    </a>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
+    <a href="#" class="link">Read More</a>
+  </div>
+</article>

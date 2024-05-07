@@ -1,0 +1,26 @@
+#hero {
+  display: flex;
+  gap: var(--edges);
+  padding: var(--edges) calc(var(--edges) * 3);
+
+  & .img-style {
+    flex: 1;
+  }
+}
+
+.hero-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  & h2 {
+    font-size: 5rem;
+    color: var(--c-accent);
+  }
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+}

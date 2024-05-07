@@ -1,0 +1,9 @@
+---
+import { Image } from 'astro:assets';
+import img from "../../_img/video-preview.jpg"
+---
+
+<section id="video">
+  <Image src={img} densities={[1.5, 2]} alt="video prev" class="video-img" />
+  <button type="button" name="playVideo" title="play video"></button>
+</section>

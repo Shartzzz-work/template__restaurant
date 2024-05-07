@@ -1,0 +1,32 @@
+.blog-item {
+  max-width: 400px;
+}
+
+.blog-item__img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.blog-item__data {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 20px;
+
+  & h1 {
+    color: var(--c-accent);
+    text-transform: capitalize;
+    font-size: 1.8rem;
+  }
+
+  & .link {
+    color: var(--c-accent);
+  }
+}
+
+.blog-item__date {
+  display: flex;
+  justify-content: space-between;
+}
